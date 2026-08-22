@@ -1,0 +1,41 @@
+/* About Section Styling */
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.about-text {
+  color: #94a3b8;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.about-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.highlight-card {
+  background-color: #24539e;
+  border: 1px solid #08090b;
+  border-radius: 8px;
+  padding: 1.25rem;
+}
+
+.highlight-card h3 {
+  color: #38bdf8;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.highlight-card p {
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+.about-action {
+  margin-top: 0.5rem;
+}
